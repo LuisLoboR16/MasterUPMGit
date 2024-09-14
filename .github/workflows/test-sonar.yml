@@ -18,7 +18,7 @@ jobs:
         if: success() # always() failure() success()
         run: >
           mvn -B verify -DskipTests sonar:sonar
-          -Dsonar.projectKey=MasterUPMGit
+          -Dsonar.projectKey=LuisLoboR16_MasterUPMGit
           -Dsonar.organization=luislobor16
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.login=$SONAR_TOKEN
